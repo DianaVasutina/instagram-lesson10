@@ -1,0 +1,38 @@
+.blok{
+    margin-top: 150px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(24, 100%, 50%);
+    border-radius: 40px;
+    background-image: radial-gradient(circle at 30% 100%, #FED373 9%, #F15245 30%, #D92E7F 62%, #515ECF 85%, #9b36b7);
+ }
+ .blok-mini{
+     width:300px ;
+     height: 300px;
+     border:25px solid white;
+     border-radius: 30%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .circle{
+     width: 80px;
+     height: 80px;
+     border-radius: 50%;
+     border: 20px solid white;
+     position:relative;
+ }
+ .small-circle{
+     width: 40px;
+     height: 40px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 100px;
+    left: 110px;
+ }
